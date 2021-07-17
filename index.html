@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Camera Slider CSS -->
+    <link href="assets/css/camera.css" rel="stylesheet" type="text/css" />
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/flower.jpg">
+</head>
+
+<body>
+    <div class="container-fluid text-white text-center">
+        <div class="row sticky-top bg-warning">
+            <div class="col-3 col-md-3"><a href="#" class="navbar-brand">pankoj.com</a></div>
+            <div class="col-9 col-md-9">
+                <nav class="nav">
+                    <ul class="nav nav-pills d-none d-md-block">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                        <li><a href="#skill" class="nav-link">Skill</a></li>
+                        <li><a href="#price" class="nav-link">Price</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#comment" class="nav-link">Comment</a></li>
+                    </ul>
+                    <!--Mobile Menu Start-->
+                    <div class="mobile-menu d-md-none">
+                        <span onclick="openNav()"><img src="img/icon/menu-48.png" alt="Menu"></span>
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void()" onclick="closeNav()" class="closebtn"><img src="img/icon/close-48.png" alt="Close"></a>
+                            <div class="overlay-content">
+                                <a onclick="closeNav()" href="#">Home</a>
+                                <a onclick="closeNav()" href="#">About</a>
+                                <a onclick="closeNav()" href="#service">Service</a>
+                                <a onclick="closeNav()" href="#Skill">Skill</a>
+                                <a onclick="closeNav()" href="#price">Price</a>
+                                <a onclick="closeNav()" href="#comment">Comment</a>
+                                <a onclick="closeNav()" href="#contact">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Mobile Menu End-->
+                </nav>
+            </div>
+        </div>
+
+        <!--------Slider Start------->
+        <div id="home" class="row">
+            <!--Camera Slide-->
+            <div class="camera_wrap">
+                <div data-src="assets/images/email1.png">
+                    <img src="assets/images/email2.png">
+                    <div class="camera_caption">
+                        <p>A jQuery slideshow with many effects, transitions, easy to customize, using canvas and mobile ready, based on jQuery 1.9.1+</p>
+                    </div>
+                </div>
+                <div data-src="assets/images/email3.png">
+                    <img src="assets/images/email4.png" class="img-responsive">
+                    <div class="camera_caption">
+                        <p>A jQuery slideshow with many effects, transitions, easy to customize, using canvas and mobile ready, based on jQuery 1.9.1+</p>
+                    </div>
+                </div>
+                <div data-src="assets/images/site1.png">
+                    <img src="assets/images/email2.png">
+                    <div class="camera_caption">
+                        <p>A jQuery slideshow with many effects, transitions, easy to customize, using canvas and mobile ready, based on jQuery 1.9.1+</p>
+                    </div>
+                </div>
+                <div data-src="assets/images/site1.png">
+                    <img src="assets/images/email3.png">
+                    <div class="camera_caption">
+                        <p>A jQuery slideshow with many effects, transitions, easy to customize, using canvas and mobile ready, based on jQuery 1.9.1+</p>
+                    </div>
+                </div>
+            </div>
+            <!--------Camera Slide End-->
+        </div>
+        <!--------Slider End------->
+        <!--------About Start------->
+        <div id="about" class="row bg-secondary">
+            <div class="col-md-8">
+                <h3>About Myself</h3>
+                <hr>
+                <p style="font-size: 25px; font-family:sans-serif;font-style: italic;">I am a professional web designer. I convert PSD file to HTML5. Ai, PDF, JPEG files are also convertable into HTML. My code is 100% hand coded. The webpage will be fully responsive. Your website can be made with Twitter Bootstrap framework. I work flexibly with clients. My clients satisfaction is my happiness.This site is built with Bootstrap fluid responsive model. I am ready to built your website for your business.</p>
+
+            </div>
+            <div class="col-md-4 pt-5"><img src="img/pankoj.jpg" alt="Pankoj" style="height: 250px; width: 250px; border-radius: 50%; border: 5px solid #808080;"></div>
+        </div>
+        <!--------About End------->
+        <!-------My Service Start------->
+        <div id="service" class="row flip">
+            <div class="col-md-12">
+                <h2 style="color: tomato;">MY SERVICE</h2>
+                <hr>
+            </div>
+
+            <div class="flip-box col-md-6">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>HTML EMAIL SIGNATURE</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Email Signature Code</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box col-md-6">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>Front Side</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Back Side</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box col-md-6">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>Front Side</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Back Side</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-box col-md-6">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>Front Side</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Back Side</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------My Service End------->
+        <!--------Skill Start------->
+        <div id="skill" class="row" style="background: #505050;">
+            <div class="col-md-12">
+                <h3>My Skill</h3>
+                <hr>
+            </div>
+            <div class="col-6 col-md-4">
+                <svg class="radial-progress html-css" data-percentage="92" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">92%</text>
+                </svg>
+                <h3>HTML/CSS</h3>
+            </div>
+            <div class="col-6 col-md-4">
+
+                <svg class="radial-progress web-design" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                </svg>
+                <h3>WEB DESIGN</h3>
+            </div>
+            <div class="col-6 col-md-4">
+
+                <svg class="radial-progress javascript" data-percentage="60" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 63.774330867872806;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">60%</text>
+                </svg>
+                <h3>Javascript</h3>
+            </div>
+            <div class="col-6 col-md-4">
+
+                <svg class="radial-progress jQuery" data-percentage="50" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 167.13272917097697;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+                </svg>
+                <h3>jQuery</h3>
+            </div>
+            <div class="col-6 col-md-4">
+                <svg class="radial-progress bootstrap" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 0;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                </svg>
+                <h3>Bootstrap</h3>
+            </div>
+            <div class="col-6 col-md-4">
+                <svg class="radial-progress ui-ux" data-percentage="51" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 0;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">51%</text>
+                </svg>
+                <h3>UI/UX</h3>
+            </div>
+        </div>
+        <!--------Skill End------->
+        <!--------Comments Start------->
+        <div id="comment" class="row bg-secondary">
+            <div class="row f1" style="background: #795548;">
+                <div class="col-md-12">
+                    <h2>Leave a comment</h2>
+                    <hr>
+                </div>
+                <div class="form col-md-12 mt-4">
+                    <div class="form-group"> <label for="name">Name</label> <input type="text" name="name" id="fullname" class="form-control"> </div>
+                    <div class="form-group"> <label for="email">Email</label> <input type="text" name="email" id="email" class="form-control"> </div>
+                    <div class="form-group">
+                        <label for="message">Message</label> <textarea name="msg" msg cols="30" rows="5" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group"> <button type="button" id="post" class="btn">Post Comment</button> </div>
+                </div>
+            </div>
+        </div>
+        <!--------Comment End------->
+        <!-- Price List Start -->
+        <div id="price" class="row bg-secondary">
+            <div class="wrappar" style="margin:0px auto;">
+                <div class="col-md-12 col-xs-10">
+                    <h2>PRICE LIST</h2>
+                    <hr>
+                </div>
+                <div class="row price">
+
+                    <div class="col-6 col-md-3 p1">
+                        <div class="col-md-11 p2">
+                            <h2>$40</h2><br />
+                            <h3>PSD TO HTML </h3><br>
+                            <hr>
+                            <ol type="1">
+                                <li>One Simple page</li>
+                                <li>Responsive Design</li>
+                                <li>Write with letest Bootstrap </li>
+                                <li>99% pixel perfect</li>
+                                <li>Any kinds of photos / PDF are also convertable </li>
+                                <li>Clean bug free hand code.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 p1">
+                        <div class="col-md-11 p2" style="background: #795548;">
+                            <h2>$200</h2><br />
+                            <h3>HTML TO WORDPRESS </h3><br>
+                            <hr>
+                            <ol type="1">
+                                <li>One Simple page</li>
+                                <li>Responsive Design</li>
+                                <li>SIMPLE WP WEBSITE </li>
+                                <li>100% Control from WP admin</li>
+                                <li>First justify then believe</li>
+                                <li>Clean hand code.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 p1">
+                        <div class="col-md-11 p2">
+                            <h2>$500</h2><br />
+                            <h3>CUSTOM WEBSITE </h3><br>
+                            <hr>
+                            <ol type="1">
+                                <li>Website with five page </li>
+                                <li>Wp install and theme customisation</li>
+                                <li>Page bulit Elementor Page builder </li>
+                                <li>Latest wordpress virsion</li>
+                                <li>My work is the best identity</li>
+                                <li>Lifetime support</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 p1">
+                        <div class="col-md-11 p2" style="background: #795548;">
+                            <h2>$50</h2><br />
+                            <h3>Emil Template/ Signature </h3><br>
+                            <hr>
+                            <ol type="1">
+                                <li>Fully hand coded</li>
+                                <li>Responsive Design</li>
+                                <li>Write with clean HTML</li>
+                                <li>99% pixel perfect</li>
+                                <li>Clean hand coded</li>
+                                <li>Recording video for your support</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Price List End -->
+        <!----Social Links Start -->
+        <div class="d1 row bg-warning">
+            <div class="col-md-12">
+                <h2>Click the icon for contact :-</h2>
+                <hr>
+            </div>
+            <div id="contact" class="col-12">
+                <ul class="col-3 col-md-4 social-icon">
+                    <li><a href="https://www.facebook.com/PankojBallav"><img src="img/icon/facebook-48.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.linkedin.com/in/pankoj-ballav-21b7591a6/?lipi=urn%3Ali%3Apage%3Aprofile_view_index_index%3B72LeOms"><img src="img/icon/linkedin-48.png" alt="LinkedIn"></a></li>
+                    <li><a href="https://github.com/PankojBallav"><img src="img/icon/github-48.png" alt="github"></a></li>
+                    <li><a href="https://wa.me/8801923151006"><img src="img/icon/whatsapp-48.png" alt="Whatsapp"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!---Social Link End--->
+
+    </div>
+    <!-- Jquery -->
+    <script src="js/jquery.min.js"></script>
+
+    <script src="assets/js/easing.min.js" type="text/javascript"></script>
+    <script src="assets/js/camera.min.js" type="text/javascript"></script>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Custom JS --->
+    <script src="assets/js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
